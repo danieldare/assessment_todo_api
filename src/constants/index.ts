@@ -1,0 +1,21 @@
+export default {
+  USER_EXISTS: 'User with the email already exists',
+  JWT_EXPIRED: 'User token is expired',
+  INVALID_TOKEN: 'Invalid access token.',
+  INVALID_CREDENTIALS: 'Invalid login credentials.',
+  TOKEN_REQUIRED: 'An access token is required.',
+  FORBIDDEN_MESSAGE: 'You are not allowed to perform this action.',
+  DATE_NOT_FUTURE: 'dueDate must be in the future',
+  TODO_NOT_FOUND: 'Todo not found',
+  TASK_NOT_FOUND: 'Task not found',
+  USER_NOT_FOUND: 'User account no longer exists',
+  USER_LOGGED_OUT: 'User not logged in',
+  INTERNAL_SERVER_ERROR: 'Oops, something broke on the server!!!',
+  V1: 'api/v1',
+  CONFLICT: 'A record with the same value already exists',
+  FOREIGN_KEY_VIOLATION:
+    'Operation cannot be completed because a referenced record does not exist',
+  REQUIRED_FIELD_MISSING: 'A required field is missing',
+  INVALID_INPUT_FORMAT: 'Invalid input format',
+  ALREADY_COMPLETED: 'The task has already been marked as completed',
+};
